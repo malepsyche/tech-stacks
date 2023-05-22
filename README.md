@@ -1,5 +1,5 @@
 # Tech Stacks
-- Full fledged guide for initialising and firing up tools such as database management systems, development frameworks, packages and version managers
+- Full fledged guide for initialising and firing up development tools such as database management systems, development frameworks, packages and version managers
 <br>
 
 
