@@ -1,27 +1,32 @@
 # Tech Stacks
 - Full fledged guide for initialising and firing up tools such as database management systems, development frameworks, packages and version managers
+<br>
+
 
 ## MacOS Unix CLI: Bash
+<br>
+
 
 ## Github
 - Code repository platform for development
 
-### Clone repository
+#### Clone repository
 - Clone online repository into local file: `git clone {repository_url} {destination_folder}` eg. `git clone https://github.com/malepsyche/tech-stacks ~/Documents/tech-stack` 
 
-### File checks
+#### File checks
 - See which files are modified and which files are staged or unstaged: `git status`
 - See the detailed line-by-line differences of the changes in each file: `git diff`
 
-### Stage file changes
+#### Stage file changes
 - `git add {file name}` to stage individual file changes
 - `git add .` to stage all file changes
 
-### Commit changes
+#### Commit changes
 - `git commmit -m "insert commit message"` to create a new commit with your staged changes
 
-### Push changes
+#### Push changes
 - `git push {remote repository name} {branch name}` eg. `git push origin main` for pushing into main branch
+<br>
 
 
 ## Languages and frameworks
@@ -38,6 +43,7 @@ backend
 database
 - postgreSQL
 - MySQL
+<br>
 
 
 ## Packages installed
