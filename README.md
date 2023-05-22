@@ -4,6 +4,7 @@
 
 
 ## MacOS Unix CLI: Bash
+- 
 <br>
 
 
@@ -36,7 +37,7 @@
 - react
 - css: bootstrap
 
-### Backend
+### Backend & API
 - nodejs
 - express
 
@@ -75,7 +76,7 @@
 - express `npm install express --save`
 - path `npm install path --save`
 - ejs `npm install ejs --save`
-
+<br>
 
 
 
