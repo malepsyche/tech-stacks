@@ -13,7 +13,7 @@
 # Code repository platform for development
 
 # Clone repository
-$ git clone {repository_url} {destination_folder} # to clone online repository into local file  
+`git clone {repository_url} {destination_folder}` # to clone online repository into local file  
 $ git clone https://github.com/malepsyche/tech-stacks ~/Documents/tech-stack
 
 # File checks 
