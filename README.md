@@ -4,7 +4,7 @@
 
 
 ## MacOS Unix CLI: Bash
-- 
+- Command line interface (Terminal)
 <br>
 
 
