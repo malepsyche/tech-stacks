@@ -25,7 +25,7 @@ $ git add {file name} # to stage individual file changes
 $ git add . # to stage all file changes
 
 # Commit changes
-$ git commmit -m "insert commit message" to create a new commit with your staged changes
+$ git commmit -m "insert commit message" # to create a new commit with your staged changes
 
 # Push changes
 $ git push {remote repository name} {branch name} 
