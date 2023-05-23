@@ -3,13 +3,13 @@
 <br>
 
 
-## MacOS Unix CLI: zsh 
-- Default shell for macOS (earlier versions use bash)
+## MacOS Unix Shell: zsh 
+- Default shell for macOS (earlier versions use bash instead of zsh)
 <br>
 
 
 ## Github
-```bash
+```zsh
 # Code repository platform for development
 
 # Clone repository
@@ -86,7 +86,7 @@ $ git push origin main # for pushing into main branch
 ## MySQL
 - [Installation and Setup](https://www.youtube.com/watch?v=oxToe-4c6OM)
 
-Installation & Setup
+Installation & Setup (for zsh shell)
 ```zsh
 $ cd ~ # Go to home directory
 $ nano .zprofile # open .zprofile file 
