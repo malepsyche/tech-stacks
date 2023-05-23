@@ -34,7 +34,7 @@ $ git push origin main # for pushing into main branch
 <br>
 
 
-## Languages and frameworks
+## Languages & Frameworks covered in this guide
 
 #### Frontend
 - ejs
@@ -51,7 +51,7 @@ $ git push origin main # for pushing into main branch
 <br>
 
 
-## Packages installed
+## Package Installations
 
 #### nvm (node version manager)
 - version manager for nodejs
