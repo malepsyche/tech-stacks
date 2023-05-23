@@ -34,7 +34,7 @@ $ git push origin main # for pushing into main branch
 <br>
 
 
-## Languages & Frameworks covered in this guide
+## Languages & Frameworks 
 
 #### Frontend
 - ejs
@@ -51,7 +51,11 @@ $ git push origin main # for pushing into main branch
 <br>
 
 
-## Package Installations
+## NodeJS
+- Backend server runtime environment for running javascript 
+- [How to create a Node Application](https://www.youtube.com/watch?v=EMwu8F0dCXE&t=1452s)
+
+#### Step 1: Install Packages
 
 #### nvm (node version manager)
 - version manager for nodejs
@@ -65,21 +69,12 @@ $ git push origin main # for pushing into main branch
 - `nodemon {insert file name in current directory}` eg. `nodemon app` to use tool
 <br>
 
-
-## NodeJS
-- Backend server runtime environment for running javascript 
-
-#### Helpful tutorials
-- [creating a node app](https://www.youtube.com/watch?v=EMwu8F0dCXE&t=1452s)
-<br>
-
-
-## Directories and files
+#### Step 2: Install Libraries
 
 #### libraries installed
-- express `npm install express --save`
+- express (api) `npm install express --save`
 - path `npm install path --save`
-- ejs `npm install ejs --save`
+- ejs (embedded javascript) `npm install ejs --save`
 <br>
 
 
