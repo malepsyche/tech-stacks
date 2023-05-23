@@ -87,7 +87,7 @@ $ git push origin main # for pushing into main branch
 - [Installation and Setup](https://www.youtube.com/watch?v=oxToe-4c6OM)
 
 Installation & Setup
-```bash
+```zsh
 $ cd ~ # Go to home directory
 $ nano .zprofile # open .zprofile file 
 
