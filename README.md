@@ -3,8 +3,8 @@
 <br>
 
 
-## MacOS Unix CLI: Bash
-- Command line interface (Terminal)
+## MacOS Unix CLI: zsh 
+- Default shell for macOS (earlier versions use bash)
 <br>
 
 
@@ -83,7 +83,22 @@ $ git push origin main # for pushing into main branch
 <br>
 
 
+## MySQL
+- [Installation and Setup](https://www.youtube.com/watch?v=oxToe-4c6OM)
 
+Installation & Setup
+```bash
+$ cd ~ # Go to home directory
+$ nano .zprofile # open .zprofile file 
+
+# Set PATH for MySQL 8.0.33
+$ export PATH=${PATH}:/usr/local/{insert path name of bin folder}
+$ export PATH=${PATH}:/usr/local/mysql-8.0.33-macos13-arm64/bin
+
+# Connect to MySQL
+$ mysql -u root -p
+```
+<br>
 
 
 
