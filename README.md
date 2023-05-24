@@ -57,28 +57,28 @@ $ git push origin main # for pushing into main branch
 
 #### Step 1: Install Packages
 
-#### nvm (node version manager)
-- version manager for nodejs
-- [link to install packages](https://github.com/nvm-sh/nvm)
-- [tutorial on installation](https://www.youtube.com/watch?v=ohBFbA0O6hs)
+nvm (node version manager)
+- Version manager for nodejs
+- [Link to install packages](https://github.com/nvm-sh/nvm)
+- [Tutorial on installation](https://www.youtube.com/watch?v=ohBFbA0O6hs)
 
-#### nodemon
-- tool that automatically restarts node applications when file changes in the directory are detected
-- [link to nodemon site](https://www.npmjs.com/package/nodemon`)
+nodemon
+- Tool that automatically restarts node applications when file changes in the directory are detected
+- [Link to nodemon site](https://www.npmjs.com/package/nodemon`)
 - `npm install -g nodemon` to install
 - `nodemon {insert file name in current directory}` eg. `nodemon app` to use tool
 <br>
 
 #### Step 2: Install Libraries
 
-#### Fundamental Libraries
+Fundamental libraries
 - express (api) `npm install --save express `
 - path (module for working with directory paths) `npm install --save path `
 
-#### Client-side scripting
+Client-side scripting
 - ejs (embedded javascript) `npm install ejs --save`
 
-#### Middlware
+Middleware
 - [multer middleware](https://github.com/expressjs/multer) (used for uploading files) `npm install --save multer`
 <br>
 
