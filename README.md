@@ -1,5 +1,5 @@
 ## :rocket: Tech Stacks
-- Full fledged guide for initialising and firing up development tools such as full-stack development frameworks, version managers, packages and database management systems.
+- Full fledged guide for initialising and firing up development tools such as full-stack frameworks, version managers, packages and database management systems.
 <br>
 
 
