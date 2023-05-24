@@ -79,7 +79,7 @@ $ git push origin main # for pushing into main branch
 - ejs (embedded javascript) `npm install ejs --save`
 
 #### Middlware
-- [multer middleware](https://github.com/expressjs/multer)(used for uploading files) `npm install --save multer`
+- [multer middleware](https://github.com/expressjs/multer) (used for uploading files) `npm install --save multer`
 <br>
 
 
