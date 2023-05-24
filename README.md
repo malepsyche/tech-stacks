@@ -71,11 +71,15 @@ $ git push origin main # for pushing into main branch
 
 #### Step 2: Install Libraries
 
-#### libraries installed
+#### Fundamental Libraries
 - express (api) `npm install --save express `
 - path (module for working with directory paths) `npm install --save path `
+
+#### Client-side scripting
 - ejs (embedded javascript) `npm install ejs --save`
-- [multer middleware](https://github.com/expressjs/multer) `npm install --save multer`
+
+#### Middlware
+- [multer middleware](https://github.com/expressjs/multer)(used for uploading files) `npm install --save multer`
 <br>
 
 
