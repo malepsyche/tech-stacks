@@ -72,16 +72,19 @@ $ git push origin main # for pushing into main branch
 #### Step 2: Install Libraries
 
 #### libraries installed
-- express (api) `npm install express --save`
-- path `npm install path --save`
+- express (api) `npm install --save express `
+- path (module for working with directory paths) `npm install --save path `
 - ejs (embedded javascript) `npm install ejs --save`
+- [multer middleware](https://github.com/expressjs/multer) `npm install --save multer`
 <br>
 
 
 ## MySQL
+
+#### Install MySQL 
 - [Installation and Setup](https://www.youtube.com/watch?v=oxToe-4c6OM)
 
-Installation & Setup (for zsh shell)
+#### Setup (for zsh shell)
 ```zsh
 $ cd ~ # Go to home directory
 $ nano .zprofile # open .zprofile file 
