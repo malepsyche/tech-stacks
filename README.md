@@ -10,7 +10,7 @@
 
 
 ## Git
-- Version control system that tracks changes in any set of computer files
+- Version control system that records changes to file(s) over time so that you can recall specific versions later
 - [Installation & Configuration](https://www.theodinproject.com/lessons/foundations-setting-up-git)
 <br>
 
