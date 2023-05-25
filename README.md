@@ -9,6 +9,12 @@
 <br>
 
 
+## Git
+- Version control system that tracks changes in any set of computer files
+- [Installation & Configuration](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+<br>
+
+
 ## Github
 ```zsh
 # Code repository platform for development
