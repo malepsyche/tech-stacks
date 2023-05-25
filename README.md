@@ -37,6 +37,16 @@ $ git commmit -m "insert commit message" # to create a new commit with your stag
 # Push changes
 $ git push {remote repository name} {branch name} 
 $ git push origin main # for pushing into main branch
+
+# Merge branches 
+$ git fetch
+$ git log --graph --oneline {remote repository name} {branch name}
+$ git merge {remote repository name} {branch name} 
+
+# Rebase branches 
+$ git fetch
+$ git log --graph --oneline {remote repository name} {branch name}
+$ git rebase {remote repository name} {branch name} 
 ```
 <br>
 
