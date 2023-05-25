@@ -1,5 +1,6 @@
 ## :rocket: Tech Stacks
 - Full fledged guide for initialising and firing up development tools such as full-stack frameworks, version managers, packages and database management systems.
+- Note: This guide is mainly specialised for Apple Silicon Mac users with zsh unix shell as opposed to bash. Some parts of this guide may not be 100% applicable to those who do not meet this criteria.
 <br>
 
 
