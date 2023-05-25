@@ -48,7 +48,7 @@ $ git fetch
 $ git log --graph --oneline {remote repository name} {branch name}
 $ git rebase {remote repository name} {branch name} 
 ```
-<br>
+<br> 
 
 
 ## Languages & Frameworks 
