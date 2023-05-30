@@ -13,7 +13,6 @@
 - Version control system that records changes to file(s) over time so that you can recall specific versions later
 - [Installation & Configuration](https://www.theodinproject.com/lessons/foundations-setting-up-git)
 
-#### User Identification `id` & File Permissions `ls -l`
 ```zsh
 # File Permissions Guide
 nanika@vultr:~/code-server/vscode/CRM_motosing$ ls -l
