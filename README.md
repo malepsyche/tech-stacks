@@ -4,9 +4,13 @@
 <br>
 
 
+
+
 ## MacOS Unix Shell: zsh 
 - Default shell for macOS (earlier versions use bash instead of zsh)
 <br>
+
+
 
 
 ## Git
@@ -58,6 +62,7 @@ groups # Additional groups you belong to, if any.
 
 
 
+
 ## Github
 - Code repository platform for development
 
@@ -98,6 +103,8 @@ $ git reset --hard origin/<branch-name>
 <br> 
 
 
+
+
 ## Languages & Frameworks 
 
 #### Frontend
@@ -113,6 +120,8 @@ $ git reset --hard origin/<branch-name>
 - postgreSQL
 - MySQL
 <br>
+
+
 
 
 ## NodeJS
@@ -145,6 +154,8 @@ $ git reset --hard origin/<branch-name>
 #### Middleware
 - [multer middleware](https://github.com/expressjs/multer) (used for uploading files) `npm install --save multer`
 <br>
+
+
 
 
 ## MySQL
