@@ -54,6 +54,7 @@ groups # Additional groups you belong to, if any.
 # If your `uid` matches the `gid` value, you are the owner of the file or directory.
 # If your `uid` matches one of the `groups`, you belong to the group associated with that ID.
 # If your `uid` doesn't match the `gid` or any of the `groups`, you fall under the "others" category.
+```
 <br>
 
 
