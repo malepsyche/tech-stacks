@@ -13,11 +13,19 @@
 - Version control system that records changes to file(s) over time so that you can recall specific versions later
 - [Installation & Configuration](https://www.theodinproject.com/lessons/foundations-setting-up-git)
 
-#### File Permissions `ls -l`
+#### File Permissions: `ls -l`
 ```zsh
-$ ls -l
+nanika@vultr:~/code-server/vscode/CRM_motosing$ ls -l
+total 16
+drwxr-xr-x 7 root root 4096 May 26 13:49 new-crm-project
+drwxr-xr-x 6 root root 4096 May 18 08:39 old-crm-project-v1
+drwxr-xr-x 7 root root 4096 May 12 12:53 old-crm-project-v2
+-rw-r--r-- 1 root root   91 May 12 12:53 package-lock.json
+nanika@vultr:~/code-server/vscode/CRM_motosing$ 
+
 # In the output of the `ls -l` command, file permissions are represented by a 10-character string. Let's break down the structure:
-`drwxr-xr-x`
+
+drwxr-xr-x
 # The first character indicates the type of the file. If it is a directory, it will be `d`. For regular files, it will be `-`.
 # The next three characters represent the permissions of the owner (user) of the file/directory. These characters can be `r` for read, `w` for write, or `x` for execute permissions.
 # The following three characters represent the permissions of the group that the file/directory belongs to.
@@ -25,10 +33,10 @@ $ ls -l
 
 # Permission Types
 # Each character in the file permission string represents a specific permission type. Here are the possible permission types:
- `r` #(read): Allows the user to read the file's content or list the directory's contents.
- `w` #(write): Allows the user to modify the file or directory, including creating, deleting, or renaming files within a directory.
- `x` #(execute): Allows the user to execute a file or access a directory's contents and navigate through it.
-If a permission is not granted, a `-` is used in its place.
+r #(read): Allows the user to read the file's content or list the directory's contents.
+w #(write): Allows the user to modify the file or directory, including creating, deleting, or renaming files within a directory.
+x #(execute): Allows the user to execute a file or access a directory's contents and navigate through it.
+# If a permission is not granted, a `-` is used in its place.
 
 # Permission Assignments
 # Each set of three characters in the file permission string represents permission assignments for different entities:
@@ -38,7 +46,7 @@ If a permission is not granted, a `-` is used in its place.
 
 # Example
 # Let's take an example to illustrate file permissions:
-`drwxr-xr-x`
+drwxr-xr-x
 # The first character `d` indicates that it is a directory.
 # The next three characters, `rwx`, represent the permissions of the owner. In this case, the owner has read, write, and execute permissions.
 # The next three characters, `r-x`, represent the permissions of the group. The group has read and execute permissions.
