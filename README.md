@@ -59,9 +59,9 @@ groups # Additional groups you belong to, if any.
 
 
 ## Github
-```zsh
-# Code repository platform for development
+- Code repository platform for development
 
+```zsh
 # Clone repository
 $ git clone {repository_url} {destination_folder} # to clone online repository into local file  
 $ git clone https://github.com/malepsyche/tech-stacks ~/Documents/tech-stack
