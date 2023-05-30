@@ -13,45 +13,47 @@
 - Version control system that records changes to file(s) over time so that you can recall specific versions later
 - [Installation & Configuration](https://www.theodinproject.com/lessons/foundations-setting-up-git)
 
-#### File Permissions: `ls -l`
+#### User Identification & File Permissions `id` & `ls -l`
 ```zsh
+# File Permissions Guide
 nanika@vultr:~/code-server/vscode/CRM_motosing$ ls -l
 total 16
 drwxr-xr-x 7 root root 4096 May 26 13:49 new-crm-project
 drwxr-xr-x 6 root root 4096 May 18 08:39 old-crm-project-v1
 drwxr-xr-x 7 root root 4096 May 12 12:53 old-crm-project-v2
 -rw-r--r-- 1 root root   91 May 12 12:53 package-lock.json
-nanika@vultr:~/code-server/vscode/CRM_motosing$ 
-
 # In the output of the `ls -l` command, file permissions are represented by a 10-character string. Let's break down the structure:
-
 drwxr-xr-x
 # The first character indicates the type of the file. If it is a directory, it will be `d`. For regular files, it will be `-`.
 # The next three characters represent the permissions of the owner (user) of the file/directory. These characters can be `r` for read, `w` for write, or `x` for execute permissions.
 # The following three characters represent the permissions of the group that the file/directory belongs to.
 # The final three characters represent the permissions for others (users not in the owner group).
-
-# Permission Types
+r, w, x & -
 # Each character in the file permission string represents a specific permission type. Here are the possible permission types:
-r #(read): Allows the user to read the file's content or list the directory's contents.
-w #(write): Allows the user to modify the file or directory, including creating, deleting, or renaming files within a directory.
-x #(execute): Allows the user to execute a file or access a directory's contents and navigate through it.
-# If a permission is not granted, a `-` is used in its place.
-
-# Permission Assignments
+r # read: Allows the user to read the file's content or list the directory's contents.
+w # write: Allows the user to modify the file or directory, including creating, deleting, or renaming files within a directory.
+x # execute: Allows the user to execute a file or access a directory's contents and navigate through it.
+- # If a permission is not granted, a `-` is used in its place.
 # Each set of three characters in the file permission string represents permission assignments for different entities:
 # Owner (user): The user who owns the file or directory.
 # Group: A group of users to which the file or directory belongs.
 # Others: Users who are not the owner or part of the group.
-
-# Example
-# Let's take an example to illustrate file permissions:
 drwxr-xr-x
 # The first character `d` indicates that it is a directory.
 # The next three characters, `rwx`, represent the permissions of the owner. In this case, the owner has read, write, and execute permissions.
 # The next three characters, `r-x`, represent the permissions of the group. The group has read and execute permissions.
 # The final three characters, `r-x`, represent the permissions for others. Others have read and execute permissions.
-```
+
+
+# User Identification Guide
+nanika@vultr:~/code-server/vscode/CRM_motosing$ id
+uid=1001(nanika) gid=1001(nanika) groups=1001(nanika),27(sudo)
+uid # Your user ID, which uniquely identifies your user account.
+gid # Your group ID, which identifies the primary group associated with your user account.
+groups # Additional groups you belong to, if any.
+# If your `uid` matches the `gid` value, you are the owner of the file or directory.
+# If your `uid` matches one of the `groups`, you belong to the group associated with that ID.
+# If your `uid` doesn't match the `gid` or any of the `groups`, you fall under the "others" category.
 <br>
 
 
