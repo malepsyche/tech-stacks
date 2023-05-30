@@ -12,7 +12,34 @@
 ## Git
 - Version control system that records changes to file(s) over time so that you can recall specific versions later
 - [Installation & Configuration](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+
+#### File Permissions `ls -l`
+In the output of the `ls -l` command, file permissions are represented by a 10-character string. Let's break down the structure:
+`drwxr-xr-x`
+- The first character indicates the type of the file. If it is a directory, it will be `d`. For regular files, it will be `-`.
+- The next three characters represent the permissions of the owner (user) of the file/directory. These characters can be `r` for read, `w` for write, or `x` for execute permissions.
+- The following three characters represent the permissions of the group that the file/directory belongs to.
+- The final three characters represent the permissions for others (users not in the owner group).
+#### Permission Types
+Each character in the file permission string represents a specific permission type. Here are the possible permission types:
+- `r` (read): Allows the user to read the file's content or list the directory's contents.
+- `w` (write): Allows the user to modify the file or directory, including creating, deleting, or renaming files within a directory.
+- `x` (execute): Allows the user to execute a file or access a directory's contents and navigate through it.
+If a permission is not granted, a `-` is used in its place.
+#### Permission Assignments
+Each set of three characters in the file permission string represents permission assignments for different entities:
+- Owner (user): The user who owns the file or directory.
+- Group: A group of users to which the file or directory belongs.
+- Others: Users who are not the owner or part of the group.
+#### Example
+Let's take an example to illustrate file permissions:
+`drwxr-xr-x`
+- The first character `d` indicates that it is a directory.
+- The next three characters, `rwx`, represent the permissions of the owner. In this case, the owner has read, write, and execute permissions.
+- The next three characters, `r-x`, represent the permissions of the group. The group has read and execute permissions.
+- The final three characters, `r-x`, represent the permissions for others. Others have read and execute permissions.
 <br>
+
 
 
 ## Github
@@ -47,6 +74,10 @@ $ git merge {remote repository name} {branch name}
 $ git fetch
 $ git log --graph --oneline {remote repository name} {branch name}
 $ git rebase {remote repository name} {branch name} 
+
+# Fetch and overwrite local
+$ git fetch origin
+$ git reset --hard origin/<branch-name>
 ```
 <br> 
 
